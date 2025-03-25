@@ -7,8 +7,6 @@ final class FinalTest {
 	// it is applied to outer class, inner class, method, global variable and local
 	// variable
 	// it cannot be applied to constructor
-	// it cannot be applied to outer class
-
 	// If applied to class => it prevents inheritance
 	// if applied to variable => it makes the value as constant and makes the
 	// performance faster

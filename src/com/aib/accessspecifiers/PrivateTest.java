@@ -27,7 +27,7 @@ public class PrivateTest {
 	private int a = 1;
 	private static int b = 3;
 
-	// private not applicable to variable inside of the method
+	// private not applicable to variable inside of the method due to its scope
 	// uncomment the following code to see the compile error
 	/*
 	 * public void m3() { private int c = 31; }

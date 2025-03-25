@@ -12,9 +12,9 @@ public interface InterfaceI1 {
 	 * - from java 9, we can also have private methods inside an interface 
 	 * - interface can extend one or more interfaces
 	 * - in terms of interfaces we use 'implements' keyword while in terms of abstraction we use the 
-	 * 'abstract' keyword
+	 * 'extends' keyword
 	 * 
 	 *  */
 	
-	void m1();
+	void m1();//public abstract
 }

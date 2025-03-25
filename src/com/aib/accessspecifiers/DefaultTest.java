@@ -19,7 +19,7 @@ class DefaultTest {
 	}
 
 	// applicable to static method
-	public static void m2() {
+	static void m2() {
 
 	}
 

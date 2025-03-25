@@ -21,7 +21,7 @@ public class StaticTest {
 
 	}
 
-	// static can be applied to constructor
+	// static can be applied to instance method
 	public static void m1() {
 
 	}

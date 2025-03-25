@@ -15,11 +15,11 @@ public class MethodOverridingTest {
 	// Method overriding
 	// - exists in different class
 	// - method name must be same
-	// - type of parameters, number of parameters must be same
+	// - type of parameters, number of parameters must be same [signature of both method parent, child must me same]
 	// - return type must be same 
 	// - exception thrown must be same or co-variant type (means same class or the subclass of exception allowed)
 	// - logic implemented doesn't matter
-	// - need of super class and sub class relationship
+	// - need of super class and sub class relationship, means alteast single level inheritance requried
 	
 	public MethodOverridingTest() {
 

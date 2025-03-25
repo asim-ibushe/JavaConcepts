@@ -20,12 +20,14 @@ public class Test {
 		b.m3(); // B m3
 
 		System.out.println("=====");
-		// dynamic dispatch (assigning subclass to super class)
+		// dynamic dispatch (assigning subclass to super class) also knows as virtual function in cpp
 		A a1 = new B();
 		System.out.println(a1.a); // 10
 		System.out.println(a1.b); // 20
 		a1.m1(); // A m1
 		a1.m2(); // B m2
+		//Not allowed as control flows from base to child class and reference is of class type A
+		//a1.m3();
 
 	}
 }
