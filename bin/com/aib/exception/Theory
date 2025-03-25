@@ -1,0 +1,11 @@
+If an exception occurs, then the rest of the commands/statements are not executed in the program
+
+We can handle the exception by using keywords such as 'try', 'catch', 'finally', 'throw' and 'throws'
+
+There are two kinds of exception - unchecked and checked exception
+but one should remember that all exception occur at run time only.
+
+Checked Exception - The exception which are handled at compile time e.g. I/OException, JsonProcessingException, SQLException etc. 
+
+Unchecked Exception - The exception which are not handled at compile time e.g. NullPointer Exception, ArithMatic Exception, 
+IndexOutOfBoundException etc to name a few.
